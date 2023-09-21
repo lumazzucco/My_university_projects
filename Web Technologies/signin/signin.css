@@ -1,0 +1,115 @@
+
+.form{
+    position: relative;
+    top:20px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.form h1{
+    text-align: center;
+}
+.row{
+    width: fit-content;
+    margin: auto;
+}
+.col-lg-12{
+    width: 100%;
+    
+}
+input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    border-width: 0px 1.5px 1.5px 0px;
+    
+}
+input[type=date], select{
+    width: 100px;
+    margin-right:20px; 
+}
+input[type=checkbox]{
+    width:20px;
+}
+input[type=file]{
+    width:50px;
+    margin-left: -200px;
+    
+}
+input[type=file]:hover{
+    cursor: pointer;
+}
+select{
+    font-size: 50px;
+}
+textarea{
+    resize:vertical;
+}
+#button{
+    text-align: center;
+    position: relative;
+    top: 8px;
+    width: 10px;
+    margin: auto;
+}
+.login-button{
+    position:relative;
+    left: 20px;
+    margin-top: 10px;
+    
+}
+.advice{
+   margin-right:100px;
+   margin-top: 20px;
+}
+.advice a{
+    color: #27AE60;
+}
+.advice a:hover{
+    color: #18e7f2;
+    transition: 1s;
+}
+@media (max-width: 700px) {            
+    .advice{
+        margin-right:-40px;
+    }
+} 
+.warning{
+  display: inline;
+  visibility: hidden;
+  width: 160px;
+  background-color: lightgray;
+  color: red;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute; 
+}
+
+@keyframes fade{
+    from { opacity:0;}
+    to { opacity:1;}
+}
+
+.profile{
+    background-image: url("../images/profile.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    border: gray solid 2px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    
+}
+
+#divRemember{
+    margin-left: -250px;
+}
+.hero-btn{
+    margin: 1% 0;
+}
+

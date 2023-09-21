@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log-in</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../signin/signin.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?
+         family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b9c50d0ec6.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../script.js"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+        
+        <!--------- NAVIGATION BAR -------->
+        
+                <nav>
+        
+                    <a href="../index.php"><img src="../imgs/white-stencil.png"></a>
+        
+                    <div class="nav-links" id="navLinks">
+        
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+                        <ul>
+                            <li><a href="../index.php">HOME</a></li>
+                            <li><a href="../explore.php">EXPLORE</a></li>
+                            <li><a href="../lnp/quiz.php?q=0">PLAY</a></li>
+                            <li><a href="../articles.php">ARTICLES</a></li>
+                            <li><a href="../contact.php">CONTACT</a></li>
+                            <li><a href=".././profile/profile.php">PROFILE</a></li>
+                            <li>
+                            <div class="dropdown fullscreen">
+                                <button class="dropbtn"><ion-icon name="person-sharp"></ion-icon>
+                                </button>
+                                <div class="dropdown-content fullscreen">
+                                <a class = "fullscreen" href="#">LOGIN</a>
+                                <a class = "fullscreen" href="../signin/signin.html">SIGN IN</a>
+                                </div>
+                            </div>     
+                            </li>
+                            <li>
+                            <a class ="smallscreen" href="#">LOGIN</a>
+                            </li>
+                            <li>
+                            <a class = "smallscreen" href="../signin/signin.html">SIGN IN</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <i class="fa fa-bars" onclick="showMenu()"></i> 
+        
+                </nav>
+                </div>
+            <h1>Log In</h1>
+        </section>
+        <section class="container-fluid form">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12">
+                    <form action="login.php" method="post" name="loginForm">
+                        <input type="email" name="logEmail" required placeholder="Email address"  />
+                        <input type="password" name="password"  maxlength="50" required placeholder="Password"/>
+                        <button  name="login-button" type="submit" class="hero-btn red-btn">Login</button> 
+
+                    </form>
+                </div>
+            </div>
+            <div class="row advice">
+                <div class="col-xs-6 col-lg-6">
+                    <p>Not already signed? <a href="../signin/signin.html">Click here </a> to sign in</p>
+                </div>
+            </div>
+        </section>
+        <script src="../effects.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
