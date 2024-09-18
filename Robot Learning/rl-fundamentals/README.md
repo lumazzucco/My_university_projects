@@ -6,12 +6,12 @@ As an addendum to the report, here are shown the brief videos proving the result
 
 ## Reward function 1
 
-![ops](https://github.com/PolitoVandal/exercise2a-rl-fundamentals-lumazzucco/blob/main/GIFs/reward1.gif)
+![ops]([https://github.com/PolitoVandal/exercise2a-rl-fundamentals-lumazzucco/blob/main/GIFs/reward1.gif](https://github.com/lumazzucco/My_university_projects/blob/main/Robot%20Learning/rl-fundamentals/GIFs/reward1.gif))
 
 ## Reward function 2
 
-![ops](https://github.com/PolitoVandal/exercise2a-rl-fundamentals-lumazzucco/blob/main/GIFs/reward2.gif)
+![ops]([https://github.com/PolitoVandal/exercise2a-rl-fundamentals-lumazzucco/blob/main/GIFs/reward2.gif](https://github.com/lumazzucco/My_university_projects/blob/main/Robot%20Learning/rl-fundamentals/GIFs/reward2.gif))
 
 ## Reward function 3
 
-![ops](https://github.com/PolitoVandal/exercise2a-rl-fundamentals-lumazzucco/blob/main/GIFs/reward3.gif)
+![ops]([https://github.com/PolitoVandal/exercise2a-rl-fundamentals-lumazzucco/blob/main/GIFs/reward3.gif](https://github.com/lumazzucco/My_university_projects/blob/main/Robot%20Learning/rl-fundamentals/GIFs/reward3.gif))
